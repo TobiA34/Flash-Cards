@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import FlashCard from "./components/FlashCard";
 
 function App() {
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="d-flex flex-column align-items-center justify-content-center min-vh-100 bg-light p-5">
+      <h1 className="mb-4">Flash Cards</h1>
+    <FlashCard/>
     </div>
   );
 }
